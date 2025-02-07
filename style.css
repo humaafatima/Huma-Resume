@@ -7,7 +7,7 @@
 }
 
 body {
-    background-color: lightslategray;
+    background-color: white;
     display: flex;
     justify-content:center;
     align-items: center;
@@ -30,9 +30,10 @@ body {
 
 .container .left {
     position: relative;
-    background-color: lightslategrey;
+    background-color: rgb(32, 36, 37);
+    width: 400px;
     padding: 40px;
-    color: white;
+    color: rgb(114, 106, 106);
     
 }
 
@@ -41,24 +42,35 @@ body {
     background-color: white;
     padding: 40px;
     margin: 50px;
-    color: black;
+    color: rgb(114, 106, 106);
     
 }
 
+.rounded-image {
+    border-radius: 50px;
+  }
 
 .profileText {
     position: relative;
-    color:white;
+    color:rgb(114, 106, 106);
 }
 
 h1 {
-    background-color: cadetblue;
+    background-color: rgb(32, 36, 37);
+    width: 250px;
+    -webkit-text-fill-color: rgb(114, 106, 106);
 }
 
 h2{
-    background-color: cadetblue;
+    background-color: rgb(32, 36, 37);
+    width: 250px;
 }
 
 h3{
-    background-color: cadetblue;
+    background-color: white;
+    width: 250px;
+    -webkit-text-fill-color: rgb(114, 106, 106);
+}
+p{
+    -webkit-text-fill-color: rgb(114, 106, 106);
 }
